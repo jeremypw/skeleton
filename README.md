@@ -14,6 +14,6 @@ You'll need the following dependencies:
 * valac
 * flatpak-builder
 
-Run in a terminal from the source root the folling command:
+Run in a terminal from the source root the following command, replacing `[BUILD_DIR]` with the path of an empty folder (NOT the project root) in which to build the project. NOTE: The contents of the build directory will be erased before building.
 
- `flatpak-builder --force-clean --install --user com.github.jeremypw.skeleton` 
+ `flatpak-builder --force-clean --install --user [BUILD_DIR] com.github.jeremypw.skeleton` 
