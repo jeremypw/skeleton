@@ -7,7 +7,10 @@ project(
 gnome = import('gnome')
 i18n = import('i18n')
 
-add_project_arguments('-DGETTEXT_PACKAGE="@0@"'.format (meson.project_name()), language:'c')
+add_project_arguments(
+    '-DGETTEXT_PACKAGE="@0@"'.format (meson.project_name()), 
+    language:'c'
+)
 
 gresource = gnome.compile_resources(
     'gresource',
@@ -23,8 +26,6 @@ config_file = configure_file(
     output: '@BASENAME@',
     configuration: config_data
 )
-
-libecal_dep = dependency('libecal-2.0')
 
 deps = [
     dependency('glib-2.0'),
