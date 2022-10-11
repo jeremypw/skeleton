@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/com/jeremypw/skeleton">
+    <!--Create any internal resources required in the /data folder-->
+    <!--Custom icon-->
+    <!--<file alias="custom_icon.svg" compressed="true" preprocess="xml-stripblanks">CustomIcon.svg</file>-->
+    <!--Custom css-->
+    <!--<file compressed="true">CustomCss.css</file>-->
+  </gresource>
+</gresources>

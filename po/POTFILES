@@ -1,0 +1,3 @@
+src/Application.vala
+data/skeleton.desktop.in
+data/skeleton.metainfo.xml.in

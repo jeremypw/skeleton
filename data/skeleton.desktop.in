@@ -1,0 +1,18 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+
+# The display name of the app
+Name=Skeleton
+# A short one line description of the function or purpose of the app
+Comment=Skeleton app using Vala and Gtk4
+# Insert suitable categories from https://specifications.freedesktop.org/menu-spec/latest/apa.html
+Categories=Development;Education;
+
+# If app provides its own icon, uncomment next line and insert the icon name
+# Icon=<Insert icon name>
+
+# The command to run the application
+Exec=com.github.jeremypw.skeleton
+# Whether the app requires a terminal in which to run
+Terminal=false

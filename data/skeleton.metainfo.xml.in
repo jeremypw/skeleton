@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.github.jeremypw.skeleton</id>
+
+  <name>My App</name>
+  <summary>Proves that we can use Vala and Gtk</summary>
+
+  <metadata_license>CC-BY-4.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+
+  <description>
+    <p>
+      A quick summary of your app's main selling points and features. Just a couple sentences per paragraph is best
+    </p>
+  </description>
+
+  <launchable type="desktop-id">com.github.jeremypw.skeleton.desktop</launchable>
+
+<!--<screenshots>-->
+<!--  <screenshot type="default">-->
+<!--    <caption>The most important feature of my app</caption>-->
+<!--    <image>https://raw.githubusercontent.com/myteam/myapp/1.0.0/data/screenshot.png</image>-->
+<!--  </screenshot>-->
+<!--</screenshots>-->
+
+<!--<branding>-->
+<!--  <color type="primary">#f37329</color>-->
+<!--</branding>-->
+
+</component>
