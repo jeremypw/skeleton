@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
+<!--Unique identifier for the app - usually the executable name-->
   <id>com.github.jeremypw.skeleton</id>
-
-  <name>My App</name>
-  <summary>Proves that we can use Vala and Gtk</summary>
+<!--The display name of the app-->
+  <name>Skeleton</name>
+<!--A one-line summary of the function or purpose of the app-->
+  <summary>Skeleton app using Vala and Gtk</summary>
 
   <metadata_license>CC-BY-4.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
 
+<!--A quick summary of your app's main selling points and features. Just a couple sentences per paragraph is best-->
   <description>
     <p>
-      A quick summary of your app's main selling points and features. Just a couple sentences per paragraph is best
+      A minimal app just producing a window for use as a starting point for elementary flatpak apps
+      written in Vala using Gtk4 and Granite. Provides the infrastructure for resources, translations,
+      metainfo as well as a desktop file and manifest.
     </p>
   </description>
 
+<!--The name of the desktop file use to launch the program-->
   <launchable type="desktop-id">com.github.jeremypw.skeleton.desktop</launchable>
 
 <!--<screenshots>-->
