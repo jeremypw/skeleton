@@ -32,7 +32,7 @@ deps = [
     dependency('gobject-2.0'),
     dependency('granite-7', version: '>=7.0.0'),
     dependency('gtk4'),
-    dependency('libadwaita-1', version: '>=1.0.0'),
+    dependency('libadwaita-1', version: '>=1.0.0')
 ]
 
 executable(
