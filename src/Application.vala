@@ -18,7 +18,7 @@ public class MyApp : Gtk.Application {
             title = _("Hello World")
         };
 
-        var label = new Gtk.Label (_("Translatable string"));
+        var label = new Gtk.Label (_("Translatable label"));
         main_window.child = label;
         main_window.present ();
     }
