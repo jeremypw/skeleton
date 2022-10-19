@@ -17,7 +17,8 @@ You'll need the following dependencies:
 * flatpak-builder
 
 ## Translations
-* Add/replace/remove language codes in `/po/LINGUAS/`  (the skeleton contains two example codes)
+In order to implement internationalization the following steps are needed:
+* Add language codes in `/po/LINGUAS/`  (the skeleton contains two example codes)
 * Add/replace/remove paths of source files containing translatable strings to `/po/POTFILES`
 * Run in a terminal from the source root the following command:
 ```
@@ -26,6 +27,8 @@ You'll need the following dependencies:
     meson compile [PROJECTNAME]-pot
     meson compile [PROJECTNAME]-update-po
 ```
+The above steps (apart from creating the build directory) should be repeated whenever new languages or translatable
+files or strings are added.
 
 ## Build and install Flatpak
 Run in a terminal from the source root the following command: 
