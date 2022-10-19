@@ -1,7 +1,7 @@
 ---
 
 # This is the same ID that you've used in meson.build and other files
-app-id: com.github.jeremypw.Skeleton
+app-id: com.github.jeremypw.skeleton
 
 # Instead of manually specifying a long list of build and runtime dependencies,
 # we can use a convenient pre-made runtime and SDK. For this example, we'll be
