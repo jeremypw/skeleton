@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+<!--NOTE: path must begin and end in a slash!-->
+  <schema path="/com/github/jeremypw/skeleton/" id="com.github.jeremypw.skeleton">
+    <!--<key name="settings-label" type="s">-->
+    <!-- <default>"Settings Label"</default>-->
+    <!-- <summary>What the settings label shows</summary>-->
+    <!-- <description>What the settings label shows</description>-->
+    <!--</key>-->
+  </schema>
+</schemalist>

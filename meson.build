@@ -44,6 +44,9 @@ executable(
     install : true
 )
 
+## If persistent settings need to be installed then uncomment the next line
+# meson.add_install_script('meson/post_install.py')
+
 subdir('data')
 subdir('po')
 

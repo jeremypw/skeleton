@@ -18,8 +18,21 @@ public class MyApp : Gtk.Application {
             title = _("Hello World")
         };
 
-        var label = new Gtk.Label (_("Translatable label"));
-        main_window.child = label;
+        var box = new Gtk.Box (Gtk.Orientation.VERTICAL, 12);
+        var label1 = new Gtk.Label (_("Translatable label")) {
+          vexpand = true,
+          valign = Gtk.Align.CENTER
+        };
+        box.append (label1);
+
+        // var settings = new Settings ("com.github.jeremypw.skeleton");
+        // var settings_label_s = settings.get_string ("settings-label");
+        // var label2 = new Gtk.Label (settings_label_s) {
+        //   valign = Gtk.Align.CENTER
+        // };
+        // box.append (label2);
+
+        main_window.child = box;
         main_window.present ();
     }
 

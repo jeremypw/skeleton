@@ -37,6 +37,13 @@ The commented out section assumes the icons will be provided in an `icon` subdir
 If you require custom (uninstalled) icons or style sheets loaded from a gresource then modify `data/gresource.xml` with the source path of the icons and CSS.
 This file contains commented out template for such declarations. Create the necessary `.svg` and `.css` files in the data directory.
 
+## Settings
+If you require persistent settings using GSettings in your app
+* Uncomment the line that runs `post_install.py` in `/meson.build`
+* Uncomment the section that installs `gschema.xml` in `data/meson.build`
+* Modify `data/gschema.xml` to add the required keys, enums etc
+* Create a `settings` object in the `activate` function of `Application.vala` to access the settings keys
+
 ## Build and install Flatpak
 Run in a terminal from the source root the following command: 
 
