@@ -27,8 +27,15 @@ In order to implement internationalization the following steps are needed:
     meson compile [PROJECTNAME]-pot
     meson compile [PROJECTNAME]-update-po
 ```
-The above steps (apart from creating the build directory) should be repeated whenever new languages or translatable
-files or strings are added.
+The above steps (apart from creating the build directory) should be repeated whenever new languages or translatable files or strings are added.
+
+## Application icon
+If you are providing an installed application icon then uncomment the commented out section in `data/meson.build` and provide the necessary `.svg` files.
+The commented out section assumes the icons will be provided in an `icon` subdirectory of `data` and be named with the form `NN.svg` where `NN` is the pixel size (`16.svg`, `24.svg` ... etc).
+
+## Custom Icons and CSS
+If you require custom (uninstalled) icons or style sheets loaded from a gresource then modify `data/gresource.xml` with the source path of the icons and CSS.
+This file contains commented out template for such declarations. Create the necessary `.svg` and `.css` files in the data directory.
 
 ## Build and install Flatpak
 Run in a terminal from the source root the following command: 
