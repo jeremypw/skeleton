@@ -9,7 +9,8 @@ git pull https://github.com/jeremypw/skeleton.github main
 ```
 
 ## Changing the name of the project
-Replace `com.github.jeremypw.skeleton` with a unique project name wherever it occurs in the source code, in the name of the Flatpak manifest (`.yaml` file) and in the filenames in `data` and `po` that contain `skeleton`. In the instructions below the new project name is represented by `[PROJECTNAME]`.
+Replace `com.github.jeremypw.skeleton` with a unique project name wherever it occurs in the source code, in the name of the Flatpak manifest (`.yaml` file).  Remove and regenerate the `.pot` and `.po` files according to instructions below. In the instructions below the new project name is represented by `[PROJECTNAME]`.
+Commit changes to git.
 
 ## Dependencies
 You'll need the following dependencies to build the project:

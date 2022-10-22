@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.jeremypw.skeleton\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-19 17:23+0100\n"
+"POT-Creation-Date: 2022-10-22 17:48+0100\n"
 "PO-Revision-Date: 2022-10-19 17:23+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,30 +17,30 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/Application.vala:20
+#: src/Application.vala:18
 msgid "Hello World"
 msgstr "Hello World"
 
-#: src/Application.vala:23
+#: src/Application.vala:22
 msgid "Translatable label"
 msgstr "Translatable label"
 
 #. The display name of the app
-#: data/skeleton.desktop.in:7 data/skeleton.metainfo.xml.in:6
+#: data/app.desktop.in:7 data/app.metainfo.xml.in:6
 msgid "Skeleton"
 msgstr "Skeleton"
 
 #. A short one line description of the function or purpose of the app
-#: data/skeleton.desktop.in:9
+#: data/app.desktop.in:10
 msgid "Skeleton app using Vala and Gtk4"
 msgstr "Skeleton app using Vala and Gtk4"
 
 #. A one-line summary of the function or purpose of the app
-#: data/skeleton.metainfo.xml.in:8
+#: data/app.metainfo.xml.in:8
 msgid "Skeleton app using Vala and Gtk"
 msgstr "Skeleton app using Vala and Gtk"
 
-#: data/skeleton.metainfo.xml.in:15
+#: data/app.metainfo.xml.in:15
 msgid ""
 "A minimal app just producing a window for use as a starting point for "
 "elementary flatpak apps written in Vala using Gtk4 and Granite. Provides the "

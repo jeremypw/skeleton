@@ -1,6 +1,6 @@
 #Translate and install our .desktop file
 i18n.merge_file(
-    input: 'skeleton.desktop.in',
+    input: 'app.desktop.in',
     output: meson.project_name() + '.desktop',
     po_dir: meson.source_root() / 'po',
     type: 'desktop',
@@ -10,9 +10,10 @@ i18n.merge_file(
 
 #Translate and install our .metainfo file
 i18n.merge_file(
-    input: 'skeleton.metainfo.xml.in',
+    input: 'app.metainfo.xml.in',
     output: meson.project_name() + '.metainfo.xml',
     po_dir: meson.source_root() / 'po',
+    type: 'xml',
     install: true,
     install_dir: get_option('datadir') / 'metainfo'
 )
