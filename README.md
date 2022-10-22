@@ -2,11 +2,17 @@
 
 A skeleton application only creating an application window but including the infrastructure for translations, icons and resources.
 
+## Creating an app based on this skeleton
+Create and initialise an empty `git` root directory with the command `git init -b [BRANCH] [NAME OF ROOT]`.  If `-b [BRANCH]` is not specified then the default (usually `master`) will be created. In the root directory run the command:
+```
+git pull https://github.com/jeremypw/skeleton.github main
+```
+
 ## Changing the name of the project
-Replace `com.github.jeremypw.skeleton` with a unique project name wherever it occurs in the source code and in the name of the Flatpak manifest (`.yaml` file). In the instructions below the new project name is represented by `[PROJECTNAME]`.
+Replace `com.github.jeremypw.skeleton` with a unique project name wherever it occurs in the source code, in the name of the Flatpak manifest (`.yaml` file) and in the filenames in `data` and `po` that contain `skeleton`. In the instructions below the new project name is represented by `[PROJECTNAME]`.
 
 ## Dependencies
-You'll need the following dependencies:
+You'll need the following dependencies to build the project:
 * glib-2.0
 * gobject-2.0
 * libgranite-7-dev >= 7.0.0
@@ -52,4 +58,6 @@ Run in a terminal from the source root the following command:
 Replace `[BUILD_DIR]` with the path of an empty folder (NOT the project root) in which to build the project. 
 **NOTE**: The contents of the build directory will be erased before building.
 
+See https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github for information of how to host your new app on GitHub (other hosts are available).
 
+Start changing the source code!
